@@ -1,0 +1,10 @@
+.sidebar {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 100vh;
+  background: #FFFFFFF7 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 6px #00000029;
+  opacity: 1;
+  position: absolute;
+}
