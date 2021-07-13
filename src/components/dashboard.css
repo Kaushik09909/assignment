@@ -50,11 +50,6 @@
   opacity: 1;
 }
 
-select {
-  width: 130px;
-  height: 50px;
-}
-
 .search {
   width: 90px;
   height: 30px;
@@ -121,6 +116,6 @@ select {
   font-weight: bold;
 }
 
-select {
-  height: 40px !important;
+.select-data {
+  width: 130px;
 }

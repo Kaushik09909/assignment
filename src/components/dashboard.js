@@ -106,7 +106,7 @@ function Dashboard() {
       <div className="sort-section">
         <div className="item">
           <label className="label-header" htmlFor="search-item">Search Item</label>
-          <Select onChange={handleChange}>
+          <Select className="select-data" onChange={handleChange}>
             <MenuItem value="All">All</MenuItem>
             {Object.keys(data).map(item => {
               return (
