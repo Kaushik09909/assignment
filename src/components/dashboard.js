@@ -120,6 +120,7 @@ function Dashboard() {
           <TextField
             id="date"
             type="date"
+            defaultValue=""
           />
         </div>
         <button className="search" onClick={onSearch} type="button">
