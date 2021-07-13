@@ -1,8 +1,20 @@
 {
-  "Table 1": {
-    "tbl1_item1": []
+  "Search Item 1": {
+    "tbl1_item1": 12000,
+    "tbl1_item2": 10710,
+    "tbl2_item1": 17530,
+    "tbl2_item2": 18350
   },
-  "Table 2": {
-
+  "Search Item 2": {
+    "tbl1_item1": 14345,
+    "tbl1_item2": 12880,
+    "tbl2_item1": 23880,
+    "tbl2_item2": 11690
+  },
+  "Search Item 3": {
+    "tbl1_item1": 15390,
+    "tbl1_item2": 13922,
+    "tbl2_item1": 15780,
+    "tbl2_item2": 14260
   }
 }

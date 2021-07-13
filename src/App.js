@@ -6,7 +6,6 @@ import { LoginContext } from './contexts/login-context'
 
 function App() {
   const [loginCreds] = useContext(LoginContext)
-  console.log(loginCreds.isLoggedIn)
   return (
     <div>
         { loginCreds.isLoggedIn ? <Table /> : <Login /> }

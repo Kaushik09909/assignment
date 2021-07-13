@@ -14,8 +14,7 @@
 
 .sort-section {
   width: 100%;
-  height: 70px;
-  padding: 30px;
+  height: 110px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 2px 12px #0000000D;
   border-radius: 5px;
@@ -26,8 +25,7 @@
 
 .table-section {
   width: 100%;
-  height: 30px;
-  padding: 30px;
+  height: fit-content;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 2px 12px #0000000D;
   border-radius: 5px;
@@ -38,12 +36,15 @@
   display: flex;
   flex-direction: column;
   margin-right: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .label-header {
   text-align: left;
   font-size: 14px;
   font-family: sans-serif;
+  font-weight: bold;
   letter-spacing: 0px;
   color: #030303;
   opacity: 1;
@@ -63,7 +64,7 @@ select {
   opacity: 1;
   border: none;
   color: #FFFFFF;
-  margin-top: 20px;
+  margin-top: 45px;
 }
 
 .search:hover {
@@ -91,4 +92,35 @@ select {
   letter-spacing: 0px;
   color: #3D404E;
   opacity: 1;
+}
+
+.search-result {
+  text-align: left;
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #3B87FF;
+  opacity: 1;
+}
+
+#table-data td, #table-data th {
+  border: none solid #ddd;
+  padding: 8px;
+  width: 310px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+
+#table-data th {
+  background: #EEEEF0 0% 0% no-repeat padding-box;
+  opacity: 1;
+  letter-spacing: 0px;
+  color: #666666;
+  font-weight: bold;
+}
+
+select {
+  height: 40px !important;
 }
